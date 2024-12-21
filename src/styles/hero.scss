@@ -1,0 +1,26 @@
+/* -------HERO SECTION--------- */
+
+.hero-section {
+  width: 100%;
+  // background-color: #000000;
+  color: #ffffff !important;
+  padding: 100px 0;
+
+  .hero-section-container {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+
+    h3 {
+      font-weight: 300 !important;
+      text-align: center !important;
+      line-height: 1.5;
+    }
+  }
+}
+
+.solution-check-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
